@@ -15,6 +15,8 @@
 		0F0823E61E4979A00021FC89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0823E41E4979A00021FC89 /* LaunchScreen.storyboard */; };
 		0F0823F11E4979A00021FC89 /* QTGit0207Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0823F01E4979A00021FC89 /* QTGit0207Tests.m */; };
 		0F0823FC1E4979A00021FC89 /* QTGit0207UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0823FB1E4979A00021FC89 /* QTGit0207UITests.m */; };
+		0F08240C1E499EAB0021FC89 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F08240A1E499EAB0021FC89 /* mainViewController.m */; };
+		0F08240D1E499EAB0021FC89 /* mainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F08240B1E499EAB0021FC89 /* mainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		0F0823F71E4979A00021FC89 /* QTGit0207UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTGit0207UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F0823FB1E4979A00021FC89 /* QTGit0207UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTGit0207UITests.m; sourceTree = "<group>"; };
 		0F0823FD1E4979A00021FC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F0824091E499EAB0021FC89 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		0F08240A1E499EAB0021FC89 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		0F08240B1E499EAB0021FC89 /* mainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +108,9 @@
 			children = (
 				0F0823D91E4979A00021FC89 /* AppDelegate.h */,
 				0F0823DA1E4979A00021FC89 /* AppDelegate.m */,
+				0F0824091E499EAB0021FC89 /* mainViewController.h */,
+				0F08240A1E499EAB0021FC89 /* mainViewController.m */,
+				0F08240B1E499EAB0021FC89 /* mainViewController.xib */,
 				0F0823DC1E4979A00021FC89 /* ViewController.h */,
 				0F0823DD1E4979A00021FC89 /* ViewController.m */,
 				0F0823DF1E4979A00021FC89 /* Main.storyboard */,
@@ -249,6 +257,7 @@
 				0F0823E61E4979A00021FC89 /* LaunchScreen.storyboard in Resources */,
 				0F0823E31E4979A00021FC89 /* Assets.xcassets in Resources */,
 				0F0823E11E4979A00021FC89 /* Main.storyboard in Resources */,
+				0F08240D1E499EAB0021FC89 /* mainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +285,7 @@
 				0F0823DE1E4979A00021FC89 /* ViewController.m in Sources */,
 				0F0823DB1E4979A00021FC89 /* AppDelegate.m in Sources */,
 				0F0823D81E4979A00021FC89 /* main.m in Sources */,
+				0F08240C1E499EAB0021FC89 /* mainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +515,7 @@
 				0F0824021E4979A00021FC89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F0824031E4979A00021FC89 /* Build configuration list for PBXNativeTarget "QTGit0207Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +524,7 @@
 				0F0824051E4979A00021FC89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F0824061E4979A00021FC89 /* Build configuration list for PBXNativeTarget "QTGit0207UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +533,7 @@
 				0F0824081E4979A00021FC89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
